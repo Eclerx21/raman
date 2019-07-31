@@ -37,7 +37,7 @@ namespace raman
                 name = Console.ReadLine();
                 Console.WriteLine("{0}--that's best your parents could come up with", name);
                 Console.WriteLine("Never mind,let's get started...");
-                this.RunGematriaCalculation(name);
+                Console.WriteLine(this.RunGematriaCalculation(name) );
 
             }
 
